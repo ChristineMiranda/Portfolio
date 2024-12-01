@@ -1,0 +1,308 @@
+.header {
+    color: rgb(200, 200, 200);
+    overflow-y: auto;
+    width: 300px;
+    position: fixed;
+    padding: 0 15px;
+    z-index: 1000;
+}
+
+.header .profile-img img {
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+    border: 8px solid;
+}
+
+
+.header .logo h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    color: var(--background-color);
+    font-family: var (--heading-font);
+}
+
+.header .logo {
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.header .logo img {
+    max-height: 32px;
+    margin-right: 8px;
+}
+
+.header .social-links {
+    margin: 0 0 20px 0;
+}
+
+.navmenu {
+    width: 250px;
+    padding: 0;
+    z-index: 9997;
+    font-size: 20px;
+    background-color: #000;
+}
+
+.navmenu ul {
+    list-style: none;
+    padding: 10px 10px 20px 10px;
+    margin: 0;
+
+}
+
+.navmenu a,
+.navmenu a:focus {
+    color: var(--nav-color);
+}
+
+.navmenu .nav li a i {
+    margin-right: 10px;
+}
+
+.section {
+    background: var(--bg-black-900);
+    min-height: 100vh;
+    display: block;
+    position: fixed;
+    left: 270px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 1;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    background: gray;
+    margin-left: 350px;
+    position: relative;
+}
+/* Home Section Styles */
+.home-section {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.home-section .container{
+    height: 500px;
+}
+
+.home-section h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.home-section .btn {
+    font-size: 1.1rem;
+    padding: 10px 30px;
+    background-color: #007bff;
+}
+
+
+/* CSS for the Portfolio Section */
+#portfolio {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#portfolio .card {
+    max-width: 500px;
+}
+
+#portfolio h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+/* About Section Styles */
+#about h1, #about h2 {
+    text-align: center;
+    color: white;
+}
+
+#about p{
+    font-size: 30px;
+    line-height: 1.6;
+    color: white;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill-bar {
+    position: relative;
+    background: #ddd;
+    height: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.skill-fill {
+    height: 100%;
+    background: #007bff;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+/* Quote Slider Styles */
+#quote-slider {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+#quote-slider .quote {
+    display: none;
+    transition: opacity 1s ease;
+}
+
+#quote-slider .quote.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Resume Section Styles */
+
+#resume h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#resume h2{
+    margin-bottom: 30px;
+    color: white;
+}
+
+.timeline {
+    margin-top: 20px;
+}
+
+.timeline-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.timeline-item h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.timeline-item p {
+    font-size: 1.1rem;
+}
+
+.timeline-item button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Certification Section Styles */
+.filter-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    margin: 5px;
+}
+
+.certification-list {
+    margin-top: 20px;
+}
+
+.certification-item {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Modal Styles */
+.modal-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.award-item{
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* services styles */
+#services {
+    background-color: gray;
+}
+
+#services h1, #services h2{
+    color: white;
+}
+
+#services .quote {
+    color: white;
+    font-size: 1.5rem;
+}
+#services p, #services li {
+    font-size: 1rem;
+}
+  
+  .card {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card-body {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .carousel-item {
+    padding: 30px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+  }
+  
+  #testimonials h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  #testimonials p, #testimonials footer{
+    font-size: 1.5rem;
+  }
+  
